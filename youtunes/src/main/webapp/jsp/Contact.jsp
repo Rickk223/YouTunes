@@ -1,36 +1,36 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+ 
+
+
+ 
+ 
 <!DOCTYPE html>
+
 <html>
 <head>
 <meta charset="UTF-8">
 <title>YouTunes | Contact Us</title>
-<!--  Bootstrap StyleSheet CDN -->
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-	crossorigin="anonymous">
-	
-<link 
- 	rel="stylesheet" 
- 	href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
-    crossorigin="anonymous">
+
+ <link rel="stylesheet" href="/youtunes/css/site.css" type="text/css" /> 
+ 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"> 
     
-<link rel="stylesheet" href="/youtunes/css/site.css" type="text/css" />
-    
-</head>
+
     
 </head>
 <body>
+<div class="wrapper">
 <jsp:include page="TopNav.jsp" flush="true" />
 
 <!-- start of container -->
 <div class="container py-5 width-35">
 	<div class="row">
 		<div class="col-12 text-center">
-			<h3>Welcome to the contact page.</h3>
+	
+			<h3 class="centerh3">Welcome to the contact page.</h3>
 		</div>
 	</div>
 	
@@ -49,8 +49,8 @@
 			<div class="row text-center">
 				<div class="col-12">
 					<ul class="list-group">
-						<li class="list-group-item border-0">1000 Galvin Road South</li>
-						<li class="list-group-item border-0">Bellevue, Nebraska 68005</li>
+						<li class="list-group-item border-10">1000 Galvin Road South</li>
+						<li class="list-group-item border-10">Bellevue, Nebraska 68005</li>
 					</ul>
 				</div>
 			</div>
@@ -79,7 +79,10 @@
 	</div>
 	<!-- end of the row -->
 </div>
+
 <!-- end of container -->
+</div>
+<!-- end of wrapper -->
 
 <jsp:include page="ScriptFooter.jsp" flush="true" />
 

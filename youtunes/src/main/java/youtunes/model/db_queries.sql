@@ -14,7 +14,7 @@ SELECT al.album_id,
 	   al.title, 
 	   al.price, 
 	   al.genre, 
-	   ar.last_name, 
+	   ar.last_name,
 	   ar.artist_id 
 FROM album al
 INNER JOIN 
